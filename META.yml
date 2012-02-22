@@ -1,14 +1,26 @@
---- #YAML:1.0
-name: File-Path-Stderr
-version: 1.00
-license: perl
+---
+abstract: 'like File::Path but print to STDERR'
+author:
+  - 'Written by Mark Fowler <mark@twoshortplanks.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-requires: {}
-recommends: {}
-build_requires: {}
-conflicts: {}
-provides:
-  File::Path::Stderr:
-    file: lib/File/Path/Stderr.pm
-    version: 1.00
-generated_by: Module::Build version 0.18_02
+generated_by: 'Module::Install version 1.00'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: File-Path-Stderr
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  perl: 5.005
+resources:
+  license: http://dev.perl.org/licenses/
+version: 2.00
