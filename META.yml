@@ -22,5 +22,7 @@ no_index:
 requires:
   perl: 5.005
 resources:
+  homepage: http://github.com/2shortplanks/File-Path-Stderr/tree
   license: http://dev.perl.org/licenses/
+  repository: git://github.com/2shortplanks/File-Path-Stderr.git
 version: 2.00
